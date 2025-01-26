@@ -49,7 +49,7 @@ const Projects = () => {
             className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
                     justify-center items-center"
           >
-            <a href="https://github.com/khushbu068/Weather-App">
+            <a href="https://weather-app-two-rouge-29.vercel.app/">
               <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                 Live
               </button>
