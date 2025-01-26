@@ -3,7 +3,7 @@ import about from '../assests/about.jpg'
 
 const About = () => {
   return (
-    <div className="text-white max-w-[1200px] mx-auto my-12" id="about">
+    <div className="text-white max-w-[1200px] mx-auto my-12 flex flex-col justify-center items-center " id="about">
 
         <div className='mt-4 md:mt-0 text-left flex'>
             <div className="my-auto mx-6">
@@ -19,7 +19,7 @@ const About = () => {
                 </p>
             </div>
         </div>
-        <img className='mx-auto rounded-3xl py-8 md:py-0' src={about} width={300} height={300}/>
+        <img className='w-1/2 h-1/2 rounded-3xl py-8 md:py-0' src={about} width={300} height={300}/>
     </div>
   )
 }

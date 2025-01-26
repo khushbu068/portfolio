@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import heroimage from '../assests/profilepic7.png'
+import heroimage from '../assests/profile2.png'
 
 const Hero = () => {
   return (
