@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="max-w-[1200px] mx-auto bg-black sm:py-20 p-5" id="contact">
       <div className="text-center">
-        <h2 className="text-4xl font-bold leading-tight primary-color">Contact Me</h2>
+        <h2 className="text-4xl font-bold leading-tight  text-orange-500 rounded-md">Contact Me</h2>
       </div>
 
       <div className="max-w-[800px] mx-auto">
@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="p-10">
             <form action="https://getform.io/f/bqoorllb" method="POST">
               <div className="grid grid-cols-1 gap-y-6">
-                {/* Name Input */}
+             
                 <div>
                   <input
                     type="text"
@@ -22,7 +22,7 @@ const Contact = () => {
                   />
                 </div>
 
-                {/* Email Input */}
+                
                 <div>
                   <input
                     type="email"
@@ -32,7 +32,6 @@ const Contact = () => {
                   />
                 </div>
 
-                {/* Message Box */}
                 <div>
                   <textarea
                     name="message"
@@ -42,7 +41,6 @@ const Contact = () => {
                   />
                 </div>
 
-                {/* Submit Button */}
                 <div>
                   <button
                     type="submit"

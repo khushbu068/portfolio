@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import heroimage from '../assests/profile2.png'
+import heroimage from '../assests/profile3.png'
  
 const Hero = () => {
   return (
@@ -31,7 +31,7 @@ const Hero = () => {
             />
             </h1>
             <p className='text-white sm:text-lg my-6 lg:text-xl'>
-                My name is Khushbu Chacholiya and I am currently pursuing my B.Tech in Computer Science and Engineering from Mits,Gwalior. I am passionate about creating beautiful and responsive websites.
+                My name is Khushbu Chacholiya and I am currently pursuing my B.Tech in Computer Science and Engineering from MITS,Gwalior. I am passionate about creating beautiful and responsive websites.
             </p>
 
             <div className='my-8'>
