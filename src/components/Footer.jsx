@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="w-full bg-neutral-900 text-white py-6">
       <footer className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center px-6">
 
-        {/* Left Section - Logo & Info */}
+     
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <img src={logo} alt="Logo" className="w-14 h-14 mb-2" />
           <p className="text-gray-400 text-sm">
@@ -16,7 +16,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Social Media Icons */}
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="https://www.linkedin.com/in/khushbu-chacholiya-073569262/" target="_blank" rel="noopener noreferrer">
             <img 

@@ -10,10 +10,10 @@ const Navbar = () => {
 
     return (
         <div className="bg-black text-gray-300 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center px-4 relative">
-            {/* Site Name */}
+       
             <h1 className="text-3xl font-bold text-orange-500 ml-4">Khushbu Chacholiya</h1>
 
-            {/* Desktop Menu */}
+         
             <ul className="hidden md:flex">
                 <li className="p-5 hover:text-white">
                     <a href="#about">About</a>
@@ -26,18 +26,17 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            {/* Mobile Menu Icon */}
+       
             <div onClick={handleNav} className="block md:hidden cursor-pointer text-white">
                 {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
             </div>
 
-            {/* Mobile Menu */}
+       
             <div
                 className={`fixed top-0 left-0 h-full w-[60%] bg-[#202121] text-gray-400 ease-in-out duration-500 z-50 ${
                     nav ? 'translate-x-0' : '-translate-x-full'
                 }`}
             >
-                {/* Mobile Menu Content */}
                 <h1 className="text-3xl font-bold text-orange-500 ml-4 mt-6">Khushbu Chacholiya</h1>
                 <ul className="p-8 text-lg">
                     <li className="p-4 hover:text-white">
